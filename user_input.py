@@ -24,12 +24,24 @@
 
 
 
+# """
+# Program that prompts the users for their age
+# """
+
+# age = int(input("Let us know your age: "))
+# age_addition = age + 1
+
+# # print(f"Awwnn! You're still much young and vibrant! You'll be {age_addition} years old on your next birthday!🥳")
+# print(f"On your next birthday, you will be {age_addition} years old!🥳")
+
+
+
+
 """
-Program that prompts the users for their age
+Program that prompts the users for the number of egg cartons
 """
 
-age = int(input("Let us know your age: "))
-age_addition = age + 1
+egg_carton = int(input("how many egg cartons do you have?: "))
+egg_carton_multiplication = egg_carton * 12
 
-# print(f"Awwnn! You're still much young and vibrant! You'll be {age_addition} years old on your next birthday!🥳")
-print(f"On your next birthday, you will be {age_addition} years old!🥳")
+print(f"You have {egg_carton_multiplication} eggs.")
