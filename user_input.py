@@ -25,7 +25,7 @@
 
 
 """
-Program that prompts the user for their age
+Program that prompts the users for their age
 """
 
 age = int(input("Let us know your age: "))
